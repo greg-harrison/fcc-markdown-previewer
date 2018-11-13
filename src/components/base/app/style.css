@@ -7,3 +7,12 @@ html, body, #root, .App {
   flex-flow: column wrap;
   background-color: #FFFFFF;
 }
+
+.App-MainSection {
+  display: flex;
+  height: calc(100% - 3rem);
+}
+
+.App-MainSection>div {
+  padding: 0;
+}
