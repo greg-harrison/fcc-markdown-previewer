@@ -1,0 +1,3 @@
+.horizontal-split-layout>div {
+  display: inline-flex;
+}
