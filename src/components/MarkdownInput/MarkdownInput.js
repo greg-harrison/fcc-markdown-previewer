@@ -3,10 +3,12 @@ import './style.css';
 
 class MarkdownInput extends Component {
   render() {
+    let { onChange } = this.props;
     return (
-      <React.Fragment>
-        <textarea className="MarkdownInput-input"></textarea>
-      </React.Fragment>
+      <div>
+        <h3 className="w-100">Markdown Input</h3>
+        <textarea className="MarkdownInput-input" onChange={(e) => onChange(e.target.value)}></textarea>
+      </div>
     );
   }
 }

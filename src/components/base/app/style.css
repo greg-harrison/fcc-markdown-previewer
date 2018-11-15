@@ -13,6 +13,3 @@ html, body, #root, .App {
   height: calc(100% - 3rem);
 }
 
-.App-MainSection>div {
-  padding: 0;
-}

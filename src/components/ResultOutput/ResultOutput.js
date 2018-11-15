@@ -1,15 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './style.css';
 
-class ResultOutput extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        Hello Result
-      </React.Fragment>
-    );
-  }
-}
-
-export default ResultOutput;
-
+export const ResultOutput = ({ result }) => (
+  <div>
+    <h3 className="w-100">Markup Output</h3>
+    <div className="result-output" dangerouslySetInnerHTML={result}></div>
+  </div>
+)

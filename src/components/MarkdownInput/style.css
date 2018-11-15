@@ -1,4 +1,5 @@
 .MarkdownInput-input {
   width: 100%;
   border: none;
+  height: calc(100% - 3rem);
 }
